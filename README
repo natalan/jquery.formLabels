@@ -1,7 +1,6 @@
 @File:        jquery.formLabels1.0.js
 @Version:     1.0
 @Author:      Andrei Zharau (www.o2v.net) - Software UX Engineer at Peopleclick Authoria
- *
 @Requires:    jQuery v1.4++ & jQueryUI Position v1.8++
 @Usage:       $j.fn.formLabels()
 @Options:     excludeElts - Excludes certain elements from being 'labelized'. Default: ''. Example:  $.fn.formLabels(excludeElts:'#email, .nolabel')
