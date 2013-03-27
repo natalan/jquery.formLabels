@@ -220,17 +220,21 @@
             },
 
             disable: function () {
-                enabled = false;
-                elts.each(function () {
-                    $($.data(this, "spanID")).hide();
-                });
+                if (enabled === true) {
+                    enabled = false;
+                    elts.each(function () {
+                        $($.data(this, "spanID")).hide();
+                    });
+                }
             },
 
             enable: function () {
-                enabled = true;
-                elts.each(function () {
-                    $($.data(this, "spanID")).show();
-                });
+                if (enabled === false) {
+                    enabled = true;
+                    elts.each(function () {
+                        $($.data(this, "spanID")).show();
+                    });
+                }
             }
         };
     };
