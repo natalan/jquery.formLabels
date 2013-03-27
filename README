@@ -1,34 +1,13 @@
-@File:        jquery.formLabels1.0.js
-@Version:     1.0
-@Author:      Andrei Zharau (www.o2v.net) - Software UX Engineer at Peopleclick Authoria
-@Requires:    jQuery v1.4++ & jQueryUI Position v1.8++
-@Usage:       $j.fn.formLabels()
-@Options:     excludeElts - Excludes certain elements from being 'labelized'. Default: ''. Example:  $.fn.formLabels(excludeElts:'#email, .nolabel')
-              refreshOnResize - whether or not refresh labels on window resize. Default: true
-              safemode - if enabled the plugin runs in the safemode without using spans and animation. Default: false
-              labelParent - parentContainer for your 'labels'. Default: 'form'
-              semantic - puts label before input element. Default: true
-@Methods:     $.fn.formLabels.refreshLabels() - refresh labels' position. Useful when input positioning has been changed due to DOM modifications, elements resizing, etc.
-@Changelog
-              1.0
-                 + depending on which element is a parent element, script creates formLabels either as spans or labels (suggested by Alex Hall)
-                 + new option 'semantic'. If true, then plugin renders label before input box (works only if labelParent:'form')
-                 * 'labelParent' option supports any element on the page, but labelParent: 'form' puts labels into closest form. Default value has been changed to form. (suggested by Ferry Mulyono)
-                 * changed logic for label's background detection
-                 * fixed problem with blur event (formLabel did not disappear on auto-complete)
-              1.0RC3
-                 + fixed probmlems with input events in IE
-                 + Green Hue Opacity bug in FF (thanks to Ionut Staicu)
-              1.0RC2
-                 + plugin supports a new refresh method
-                 + new options: safemode and labelParent
-                 + refresh on window resize is now an option
-                 + slightly updated performance
+  @File:        jquery.formLabels.js
+  @Version:     1.1
+  @Author:      Andrei Zharau (www.o2v.net) - Senior Software Engineer at Nokia
 
+  @Requires:    jQuery v1.9 & jQueryUI v1.10
+  @Usage:       $.fn.formLabels() or $("form").formLabels()
+  @Options:     excludeElts - Excludes certain elements from being 'labelized'. Default: ''. Example:  $.fn.formLabels(excludeElts:'#email, .nolabel')
+                refreshOnResize - whether or not refresh labels on window resize. Default: true
+                safemode - if enabled the plugin runs in the safemode without using spans and animation. Default: false
+                labelParent - parentContainer for your 'labels'. Default: 'form'
+                semantic - puts label before input element. Default: true
 
-This source file is free software, under either the GPL v2 license or a
-BSD style license, as supplied with this software.
-
-This source file is distributed in the hope that it will be useful, but
-WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
-or FITNESS FOR A PARTICULAR PURPOSE. See the license files for details.
+  @License: Released under the MIT license
