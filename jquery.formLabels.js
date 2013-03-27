@@ -12,6 +12,8 @@
  *               labelParent - parentContainer for your 'labels'. Default: 'form'
  *               semantic - puts label before input element. Default: true
  *
+ * Link to the demo: <http://o2v.net/demo/formLabels/index.html>
+ *
  * Released under the MIT license
  */
 (function ($) {
