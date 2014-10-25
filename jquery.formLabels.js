@@ -2,7 +2,7 @@
 /*
  * @File:        jquery.formLabels.js
  * @Version:     1.1
- * @Author:      Andrei Zharau (www.o2v.net) - Senior Software Engineer at Nokia
+ * @Author:      Andrei Zharov (www.o2v.net) - Senior Software Engineer at Nokia
  *
  * @Requires:    jQuery v1.9 & jQueryUI v1.9.1
  * @Usage:       $.fn.formLabels()
