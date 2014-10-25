@@ -4,7 +4,7 @@ body {
     font: normal 12px 'Segoe UI', Arial,Verdana;
     color: #D1D1D1;
     background: #000;
-    background: url(http://o2v.net/wp-content/themes/professional/images/body-bg.png) repeat;
+    background: url(http://o2v.net/files/demo/formLabels/body-bg.png) repeat;
 }
 .group:after {
     content: " ";
